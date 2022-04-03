@@ -26,3 +26,6 @@ sounds/
 package-lock.json
 package.json
 
+#htaccess
+*.htaccess
+
