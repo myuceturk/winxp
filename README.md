@@ -15,11 +15,11 @@ A "windows xp" theme html css project that I created to improve myself.
 
 ***
 
-###**[Demo Link](http://demo.myuceturk.net/winxp/login.html)**
+### **[Demo Link](http://demo.myuceturk.net/winxp/login.html)**
 
 ***
 
 ### Follow me
 
-#####**[Twitter](https://twitter.com/myuceturkk)** - **[Github](https://github.com/myuceturk)** - **[Website](https://www.myuceturk.net/)**
+##### **[Twitter](https://twitter.com/myuceturkk)** - **[Github](https://github.com/myuceturk)** - **[Website](https://www.myuceturk.net/)**
 
