@@ -12,8 +12,9 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
-#img
+#documents
 img/
+markdown/
 
 #sounds
 sounds/
