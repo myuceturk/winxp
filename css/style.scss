@@ -1,0 +1,236 @@
+$blue:#245edb;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #014da3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  height: 100%;
+}
+
+.main .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.login-form-wrapper {
+  width: 100%;
+  height: 75%;
+  position: relative;
+  background-color: #5090da;
+  position: relative;
+  border-radius: 50% / 0.7%;
+  border-bottom: 3px solid rgb(255, 81, 0);
+  border-top: 2px solid #ffffff;
+}
+
+.login-form-wrapper .light {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 25px;
+  left: 25px;
+  background-color: #fff;
+  filter: blur(100px);
+  border-radius: 50%;
+}
+
+.login-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 5rem;
+  margin: 8rem 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.287);
+}
+
+.login-logo .logo {
+  height: 150px;
+}
+
+.login-logo .text {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 5rem;
+  margin: 8rem 0;
+}
+
+.login-form .users {
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  width: 400px;
+  height: 110px;
+  background: rgb(0, 72, 154);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 72, 154, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 0.4rem;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgba(180, 180, 180, 1)
+    )
+    1;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.login-form .users .user-img {
+  justify-self: flex-start;
+  align-self: center;
+  margin: 0 0 0 15px;
+  width: 75px;
+  min-width: 75px;
+  height: 75px;
+  background-image: url("../img/user-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.3rem;
+  border: 2px solid #ffd111;
+}
+
+.login-form .users .username {
+  display: block !important;
+  align-self: center;
+  margin: 15px 0 0 15px;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+  align-self: flex-start !important;
+}
+
+.login-form .users .password {
+  position: absolute;
+  bottom: -12px;
+  left: 105px;
+}
+.login-form .users .password label {
+  display: block;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+.login-form .users .password input[type="password"] {
+  display: inline-block;
+  width: 185px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 0.3rem;
+  border: none;
+}
+.login-form .users .login-btn {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: rgb(115, 193, 114);
+  background: linear-gradient(
+    90deg,
+    rgba(115, 193, 114, 1) 0%,
+    rgba(61, 147, 60, 1) 100%
+  );
+  color: #fff;
+  font-weight: bolder;
+  margin-left: 15px;
+  border: 2px solid #fff;
+  border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 992px) {
+  .login-form-wrapper {
+    height: auto;
+    border-radius: 0px;
+  }
+  .login-logo {
+    align-items: center;
+    border-right: none;
+    margin: 4rem 0;
+  }
+  .login-logo .logo {
+    height: 100px;
+  }
+  .login-logo .text {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
+  .login-form {
+    align-items: center;
+    padding: unset;
+    margin: 4rem 0;
+  }
+  .login-form .users {
+    width: 100%;
+  }
+}
+
+/* Dashboard */
+
+.main-dashboard{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-dashboard footer{
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:linear-gradient(to bottom, #{$blue} 0%, #3f8cf3 9%, #{$blue} 18%, #{$blue} 92%, #333 100%) center/cover no-repeat;
+}
+
+.main-dashboard .start{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 30px;
+  transform:skewX(-3deg);
+  box-shadow: 0px 5px 10px #79ce71 inset;
+  background: radial-gradient(circle, #5eac56 0%, #3c873c 100%) center/cover no-repeat;
+  text-decoration: none;
+}
+
+.main-dashboard .start .xpStartUpLogo{
+  height: 25px;
+}
+.main-dashboard .start .startText{
+  color: #fff;
+  font-size: 21px;
+  font-weight: 700;
+  margin-left: 5px;
+  font-style: italic;
+}
